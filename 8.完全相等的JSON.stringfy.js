@@ -18,6 +18,3 @@ var areDeeplyEqual = function (o1, o2) {
     }
 
 };
-
-areDeeplyEqual({ "x": 1, "y": 1, "array": [1, 2, 3], "next": { "x": 1, "y": 1, "array": [1, 2, 3], "next": { "x": 1, "y": 1, "array": [1, 2, 3], "next": null } } }
-    , { "x": 1, "y": 1, "array": [1, 2, 3], "next": { "x": 1, "y": 1, "array": [1, 2, 3], "next": { "y": 2, "x": 1, "array": [1, 2, 3], "next": null } } })
